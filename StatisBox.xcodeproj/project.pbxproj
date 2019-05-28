@@ -12,6 +12,20 @@
 		AE3F93042294D90C00C5CF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3F93022294D90C00C5CF54 /* Main.storyboard */; };
 		AE3F93062294D90D00C5CF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3F93052294D90D00C5CF54 /* Assets.xcassets */; };
 		AE3F93092294D90D00C5CF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3F93072294D90D00C5CF54 /* LaunchScreen.storyboard */; };
+		AE3F93112294DBC000C5CF54 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F93102294DBC000C5CF54 /* CollectionViewCell.swift */; };
+		AE3F9338229686F200C5CF54 /* Game1Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F9336229686F200C5CF54 /* Game1Controller.swift */; };
+		AE3F9339229686F200C5CF54 /* Game1Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3F9337229686F200C5CF54 /* Game1Controller.xib */; };
+		AE3F933C2296912A00C5CF54 /* Game2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F933A2296912A00C5CF54 /* Game2Controller.swift */; };
+		AE3F933D2296912A00C5CF54 /* Game2Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3F933B2296912A00C5CF54 /* Game2Controller.xib */; };
+		AE3F934222969E7A00C5CF54 /* Game3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3F934022969E7A00C5CF54 /* Game3Controller.swift */; };
+		AE3F934322969E7A00C5CF54 /* Game3Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE3F934122969E7A00C5CF54 /* Game3Controller.xib */; };
+		AE98CCB12298D6F90013E54E /* Game4Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE98CCAF2298D6F90013E54E /* Game4Controller.swift */; };
+		AE98CCB22298D6F90013E54E /* Game4Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE98CCB02298D6F90013E54E /* Game4Controller.xib */; };
+		AE98CCB72298D7910013E54E /* Game5Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE98CCB52298D7910013E54E /* Game5Controller.swift */; };
+		AE98CCB82298D7910013E54E /* Game5Controller.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE98CCB62298D7910013E54E /* Game5Controller.xib */; };
+		AE98CCC0229A96250013E54E /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE98CCBF229A96250013E54E /* Sound.swift */; };
+		AE98CCC2229A97D50013E54E /* checklist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AE98CCC1229A97D50013E54E /* checklist.mp3 */; };
+		AE98CCC6229A99980013E54E /* Rect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE98CCC5229A99980013E54E /* Rect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +36,20 @@
 		AE3F93052294D90D00C5CF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE3F93082294D90D00C5CF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3F930A2294D90D00C5CF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE3F93102294DBC000C5CF54 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		AE3F9336229686F200C5CF54 /* Game1Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game1Controller.swift; sourceTree = "<group>"; };
+		AE3F9337229686F200C5CF54 /* Game1Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Game1Controller.xib; sourceTree = "<group>"; };
+		AE3F933A2296912A00C5CF54 /* Game2Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game2Controller.swift; sourceTree = "<group>"; };
+		AE3F933B2296912A00C5CF54 /* Game2Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Game2Controller.xib; sourceTree = "<group>"; };
+		AE3F934022969E7A00C5CF54 /* Game3Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game3Controller.swift; sourceTree = "<group>"; };
+		AE3F934122969E7A00C5CF54 /* Game3Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Game3Controller.xib; sourceTree = "<group>"; };
+		AE98CCAF2298D6F90013E54E /* Game4Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game4Controller.swift; sourceTree = "<group>"; };
+		AE98CCB02298D6F90013E54E /* Game4Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Game4Controller.xib; sourceTree = "<group>"; };
+		AE98CCB52298D7910013E54E /* Game5Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game5Controller.swift; sourceTree = "<group>"; };
+		AE98CCB62298D7910013E54E /* Game5Controller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Game5Controller.xib; sourceTree = "<group>"; };
+		AE98CCBF229A96250013E54E /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		AE98CCC1229A97D50013E54E /* checklist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = checklist.mp3; sourceTree = "<group>"; };
+		AE98CCC5229A99980013E54E /* Rect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,8 @@
 		AE3F92F22294D90C00C5CF54 = {
 			isa = PBXGroup;
 			children = (
+				AE98CCB32298D74E0013E54E /* Game Controller */,
+				AE98CCB42298D7670013E54E /* Game View */,
 				AE3F92FD2294D90C00C5CF54 /* StatisBox */,
 				AE3F92FC2294D90C00C5CF54 /* Products */,
 			);
@@ -54,7 +84,10 @@
 		AE3F92FD2294D90C00C5CF54 /* StatisBox */ = {
 			isa = PBXGroup;
 			children = (
+				AE98CCC4229A98EC0013E54E /* Sounds */,
+				AE98CCC3229A98DF0013E54E /* Class */,
 				AE3F92FE2294D90C00C5CF54 /* AppDelegate.swift */,
+				AE3F93102294DBC000C5CF54 /* CollectionViewCell.swift */,
 				AE3F93002294D90C00C5CF54 /* ViewController.swift */,
 				AE3F93022294D90C00C5CF54 /* Main.storyboard */,
 				AE3F93052294D90D00C5CF54 /* Assets.xcassets */,
@@ -62,6 +95,47 @@
 				AE3F930A2294D90D00C5CF54 /* Info.plist */,
 			);
 			path = StatisBox;
+			sourceTree = "<group>";
+		};
+		AE98CCB32298D74E0013E54E /* Game Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE3F9336229686F200C5CF54 /* Game1Controller.swift */,
+				AE3F933A2296912A00C5CF54 /* Game2Controller.swift */,
+				AE3F934022969E7A00C5CF54 /* Game3Controller.swift */,
+				AE98CCAF2298D6F90013E54E /* Game4Controller.swift */,
+				AE98CCB52298D7910013E54E /* Game5Controller.swift */,
+			);
+			path = "Game Controller";
+			sourceTree = "<group>";
+		};
+		AE98CCB42298D7670013E54E /* Game View */ = {
+			isa = PBXGroup;
+			children = (
+				AE3F9337229686F200C5CF54 /* Game1Controller.xib */,
+				AE3F933B2296912A00C5CF54 /* Game2Controller.xib */,
+				AE3F934122969E7A00C5CF54 /* Game3Controller.xib */,
+				AE98CCB02298D6F90013E54E /* Game4Controller.xib */,
+				AE98CCB62298D7910013E54E /* Game5Controller.xib */,
+			);
+			path = "Game View";
+			sourceTree = "<group>";
+		};
+		AE98CCC3229A98DF0013E54E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				AE98CCBF229A96250013E54E /* Sound.swift */,
+				AE98CCC5229A99980013E54E /* Rect.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		AE98CCC4229A98EC0013E54E /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				AE98CCC1229A97D50013E54E /* checklist.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +196,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE98CCB22298D6F90013E54E /* Game4Controller.xib in Resources */,
 				AE3F93092294D90D00C5CF54 /* LaunchScreen.storyboard in Resources */,
 				AE3F93062294D90D00C5CF54 /* Assets.xcassets in Resources */,
 				AE3F93042294D90C00C5CF54 /* Main.storyboard in Resources */,
+				AE3F934322969E7A00C5CF54 /* Game3Controller.xib in Resources */,
+				AE3F933D2296912A00C5CF54 /* Game2Controller.xib in Resources */,
+				AE3F9339229686F200C5CF54 /* Game1Controller.xib in Resources */,
+				AE98CCB82298D7910013E54E /* Game5Controller.xib in Resources */,
+				AE98CCC2229A97D50013E54E /* checklist.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +217,14 @@
 			files = (
 				AE3F93012294D90C00C5CF54 /* ViewController.swift in Sources */,
 				AE3F92FF2294D90C00C5CF54 /* AppDelegate.swift in Sources */,
+				AE3F93112294DBC000C5CF54 /* CollectionViewCell.swift in Sources */,
+				AE98CCC6229A99980013E54E /* Rect.swift in Sources */,
+				AE98CCB72298D7910013E54E /* Game5Controller.swift in Sources */,
+				AE98CCC0229A96250013E54E /* Sound.swift in Sources */,
+				AE3F934222969E7A00C5CF54 /* Game3Controller.swift in Sources */,
+				AE3F933C2296912A00C5CF54 /* Game2Controller.swift in Sources */,
+				AE3F9338229686F200C5CF54 /* Game1Controller.swift in Sources */,
+				AE98CCB12298D6F90013E54E /* Game4Controller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +380,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.StatisBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yusufaisal.StatisBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
